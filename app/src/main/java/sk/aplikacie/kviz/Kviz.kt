@@ -25,7 +25,12 @@ class Kviz : AppCompatActivity(), View.OnClickListener {
 
         menoHraca = intent.getStringExtra(Otazky.menoHraca)
 
-        testoveOtazky = Otazky.getOtazkyVlajky()
+        when (intent.getIntExtra("kategoria", 0))  {
+            0 -> testoveOtazky = Otazky.getOtazkyVlajky()
+            1 -> testoveOtazky = Otazky.getOtazkyHlavneMesta()
+            2 -> testoveOtazky = Otazky.getOtazkySlepaMapa()
+        }
+
 
         nastavOtazku()
 

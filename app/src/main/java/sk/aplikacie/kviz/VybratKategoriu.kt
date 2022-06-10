@@ -20,6 +20,23 @@ class VybratKategoriu : AppCompatActivity() {
 
         button_vlajky.setOnClickListener {
             val intent = Intent(this,Kviz::class.java)
+            intent.putExtra("kategoria",0)
+            intent.putExtra(Otazky.menoHraca, menoHraca)
+            startActivity(intent)
+            finish()
+        }
+
+        button_hlavne_mesta.setOnClickListener {
+            val intent = Intent(this,Kviz::class.java)
+            intent.putExtra("kategoria",1)
+            intent.putExtra(Otazky.menoHraca, menoHraca)
+            startActivity(intent)
+            finish()
+        }
+
+        button_slepa_mapa.setOnClickListener {
+            val intent = Intent(this,Kviz::class.java)
+            intent.putExtra("kategoria",2)
             intent.putExtra(Otazky.menoHraca, menoHraca)
             startActivity(intent)
             finish()
