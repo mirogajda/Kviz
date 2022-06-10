@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Kviz</string>
+    <string name="vitajte">Vitajte v aplikácii Kvíz!</string>
+    <string name="zacat_kviz">Začať kvíz</string>
+    <string name="najlepsi_hraci">Najlepší hráči</string>
+    <string name="kvizUvod">Kvíz</string>
+    <string name="vitajte2">Vitajte</string>
+    <string name="zadajte_meno">Zadajte Vaše meno</string>
+    <string name="zvolte_kategoriu">Vybrať kategóriu</string>
+    <string name="kategorie">Vyberte si kategóriu</string>
+    <string name="meno">Meno</string>
+    <string name="otazka">Ktorej krajine patrí táto vlajka?</string>
+    <string name="potvrdit">Potvrdiť</string>
+    <string name="vlajka">vlajka</string>
+    <string name="mozost1">Island</string>
+    <string name="moznost2">Austrália</string>
+    <string name="moznost3">Nový Zéland</string>
+    <string name="moznost4">Ukrajina</string>
+    <string name="vysledok">Výsledok</string>
+    <string name="trofej">trofej</string>
+    <string name="gratulujeme">Gratulujeme, úspešne ste dokončili kvíz</string>
+    <string name="meno_hraca">Miro</string>
+    <string name="skore">Vaše skóre je 9/10</string>
+    <string name="hrat_znovu">hrať znova</string>
+    <string name="hlavne_menu">Hlavné menu</string>
+    <string name="hrac1">Miro</string>
+    <string name="hrac2">Jozef</string>
+    <string name="hrac3">Martin</string>
+    <string name="vlajky">Vlajky</string>
+    <string name="hlavne_mesta">Hlavné mestá</string>
+    <string name="slepa_mapa">Slepá mapa</string>
+    <string name="otazka_hlavne_mesta">Hlavným mestom ktorej krajiny je?</string>
+
+</resources>

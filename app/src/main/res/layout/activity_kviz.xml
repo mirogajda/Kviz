@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".Kviz">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="16dp"
+
+        >
+        <TextView
+            android:id="@+id/otazky"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:textColor="@color/darkGrey"
+            android:textSize="28sp"
+            android:text="@string/otazka"
+            >
+
+        </TextView>
+
+        <ImageView
+            android:id="@+id/obrazok"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="35dp"
+
+
+            android:src="@drawable/au"
+            android:contentDescription="@string/vlajka">
+
+        </ImageView>
+
+        <LinearLayout
+            android:id="@+id/detailyPostupu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:orientation="horizontal"
+            android:gravity="center"
+
+            >
+            <ProgressBar
+                android:id="@+id/postup"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:max="10"
+                android:minHeight="50dp"
+                android:progress="0"
+                android:indeterminate="false"
+                >
+
+            </ProgressBar>
+            <TextView
+                android:id="@+id/popis_progresu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="15dp"
+                android:textColorHint="@color/lightGrey"
+                android:textSize="14sp"
+                tools:text="0/10"
+                />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/moznost1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/zakladny_ram"
+            android:gravity="center"
+            android:padding="15dp"
+            android:textColor="@color/lightGrey"
+            android:textSize="18sp"
+            tools:text="@string/mozost1"
+            >
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/moznost2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/zakladny_ram"
+            android:gravity="center"
+            android:padding="15dp"
+            android:textColor="@color/lightGrey"
+            android:textSize="18sp"
+            tools:text="@string/moznost2"
+            >
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/moznost3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/zakladny_ram"
+            android:gravity="center"
+            android:padding="15dp"
+            android:textColor="@color/lightGrey"
+            android:textSize="18sp"
+            tools:text="@string/moznost3"
+            >
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/moznost4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/zakladny_ram"
+            android:gravity="center"
+            android:padding="15dp"
+            android:textColor="@color/lightGrey"
+            android:textSize="18sp"
+            tools:text="@string/moznost4"
+            >
+
+        </TextView>
+
+        <Button
+            android:id="@+id/button_potvrdit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@color/purple_700"
+            android:text="@string/potvrdit"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:textStyle="bold"
+
+            >
+
+        </Button>
+
+    </LinearLayout>
+
+</ScrollView>

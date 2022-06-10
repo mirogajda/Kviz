@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@drawable/pozadie"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:gravity="center"
+        android:text="@string/vitajte"
+        android:textColor="#FF9800"
+        android:textSize="36sp"
+        android:textStyle="bold"
+         />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/zacat_kviz"
+        android:textColor="@color/white"
+        android:layout_marginHorizontal="40dp"
+        android:textSize="20sp"
+        app:backgroundTint="@color/purple_700"
+         />
+
+<!--    <Button-->
+<!--        android:id="@+id/button3"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="10dp"-->
+<!--        android:text="@string/zvolte_kategoriu"-->
+<!--        android:textColor="@color/white"-->
+<!--        android:layout_marginHorizontal="40dp"-->
+<!--        android:textSize="20sp"-->
+<!--        app:backgroundTint="@color/purple_700"-->
+<!--        />-->
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/najlepsi_hraci"
+        android:textColor="@color/white"
+        android:layout_marginHorizontal="40dp"
+        android:textSize="20sp"
+        app:backgroundTint="@color/purple_700"
+         />
+
+
+
+
+
+
+
+</LinearLayout>
