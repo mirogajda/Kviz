@@ -30,5 +30,7 @@
     <string name="hlavne_mesta">Hlavné mestá</string>
     <string name="slepa_mapa">Slepá mapa</string>
     <string name="otazka_hlavne_mesta">Hlavným mestom ktorej krajiny je?</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 </resources>
