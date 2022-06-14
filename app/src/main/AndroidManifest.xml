@@ -9,7 +9,6 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Kviz">
-        <activity android:name=".KvizHlavneMesta"></activity>
         <activity android:name=".VybratKategoriu" />
         <activity android:name=".NajlepsiHraci" />
         <activity android:name=".VysledokHry" />
