@@ -19,18 +19,18 @@
     <string name="vysledok">Výsledok</string>
     <string name="trofej">trofej</string>
     <string name="gratulujeme">Gratulujeme, úspešne ste dokončili kvíz</string>
-    <string name="meno_hraca">Miro</string>
     <string name="skore">Vaše skóre je 9/10</string>
     <string name="hrat_znovu">hrať znova</string>
     <string name="hlavne_menu">Hlavné menu</string>
-    <string name="hrac1">Miro</string>
-    <string name="hrac2">Jozef</string>
-    <string name="hrac3">Martin</string>
     <string name="vlajky">Vlajky</string>
     <string name="hlavne_mesta">Hlavné mestá</string>
     <string name="slepa_mapa">Slepá mapa</string>
     <string name="otazka_hlavne_mesta">Hlavným mestom ktorej krajiny je?</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="kategoria">Kategória</string>
+    <string name="poradie">Poradie</string>
+    <string name="miro">Miro</string>
+    <string name="meno_hr_a">Meno hráča</string>
+    <string name="sk_re">Skóre</string>
+    <string name="id">Id</string>
 
 </resources>

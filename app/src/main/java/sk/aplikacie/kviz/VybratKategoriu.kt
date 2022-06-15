@@ -20,7 +20,7 @@ class VybratKategoriu : AppCompatActivity() {
 
         button_vlajky.setOnClickListener {
             val intent = Intent(this,Kviz::class.java)
-            intent.putExtra("kategoria",0)
+            intent.putExtra("kategoria",Kategoria.VLAJKY.toString())
             intent.putExtra(Otazky.menoHraca, menoHraca)
             startActivity(intent)
             finish()
@@ -28,7 +28,7 @@ class VybratKategoriu : AppCompatActivity() {
 
         button_hlavne_mesta.setOnClickListener {
             val intent = Intent(this,Kviz::class.java)
-            intent.putExtra("kategoria",1)
+            intent.putExtra("kategoria",Kategoria.MESTA.toString())
             intent.putExtra(Otazky.menoHraca, menoHraca)
             startActivity(intent)
             finish()
@@ -36,7 +36,7 @@ class VybratKategoriu : AppCompatActivity() {
 
         button_slepa_mapa.setOnClickListener {
             val intent = Intent(this,Kviz::class.java)
-            intent.putExtra("kategoria",2)
+            intent.putExtra("kategoria",Kategoria.MAPA.toString())
             intent.putExtra(Otazky.menoHraca, menoHraca)
             startActivity(intent)
             finish()

@@ -8,6 +8,7 @@ import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
 import kotlinx.android.synthetic.main.activity_najlepsi_hraci.*
+import sk.aplikacie.kviz.data.UserAdapter
 import sk.aplikacie.kviz.data.UserViewModel
 
 

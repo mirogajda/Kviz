@@ -17,6 +17,7 @@ class Kviz : AppCompatActivity(), View.OnClickListener {
     private var zvolenaOtazka: Int = 0
     private var pocetSpravnychOdpovedi: Int = 0
     private var menoHraca: String? = null
+    private var kategoria: String? = null
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -24,11 +25,12 @@ class Kviz : AppCompatActivity(), View.OnClickListener {
         setContentView(R.layout.activity_kviz)
 
         menoHraca = intent.getStringExtra(Otazky.menoHraca)
+        kategoria = intent.getStringExtra("kategoria")
 
-        when (intent.getIntExtra("kategoria", 0))  {
-            0 -> testoveOtazky = Otazky.getOtazkyVlajky()
-            1 -> testoveOtazky = Otazky.getOtazkyHlavneMesta()
-            2 -> testoveOtazky = Otazky.getOtazkySlepaMapa()
+        when (kategoria)  {
+            Kategoria.VLAJKY.toString() -> testoveOtazky = Otazky.getOtazkyVlajky()
+            Kategoria.MESTA.toString() -> testoveOtazky = Otazky.getOtazkyHlavneMesta()
+            Kategoria.MAPA.toString() -> testoveOtazky = Otazky.getOtazkySlepaMapa()
         }
 
 
@@ -130,6 +132,7 @@ class Kviz : AppCompatActivity(), View.OnClickListener {
                             intent.putExtra(Otazky.menoHraca, menoHraca)
                             intent.putExtra(Otazky.pocetOtazok, testoveOtazky!!.size)
                             intent.putExtra(Otazky.pocetSpravnych, pocetSpravnychOdpovedi)
+                            intent.putExtra("kategoria", kategoria)
                             startActivity(intent)
                             finish()
                         }

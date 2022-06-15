@@ -19,17 +19,19 @@ class VysledokHry : AppCompatActivity() {
         val menohraca = intent.getStringExtra(Otazky.menoHraca)
         meno_hraca.text = menohraca
 
+        val kategoria = intent.getStringExtra("kategoria")
+
         val pocetOtazok = intent.getIntExtra(Otazky.pocetOtazok, 0)
         val pocetSpravnych = intent.getIntExtra(Otazky.pocetSpravnych, 0)
 
         text_skore.text = "Vaše skóre je $pocetSpravnych/$pocetOtazok"
 
-        val user = User (0, menohraca.toString(), pocetSpravnych)
+        val user = User (0, menohraca.toString(), pocetSpravnych, kategoria!!)
         mUserViewModel = ViewModelProvider(this).get(UserViewModel::class.java)
         mUserViewModel.addUser(user)
 
         znova.setOnClickListener {
-            startActivity(Intent(this, Kviz::class.java))
+            startActivity(Intent(this, ZaciatokHry::class.java))
             finish()
         }
 
