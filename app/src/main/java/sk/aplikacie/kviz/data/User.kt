@@ -2,7 +2,6 @@ package sk.aplikacie.kviz.data
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey
-import sk.aplikacie.kviz.Kategoria
 
 
 /**Trieda uzivatela, ktory sa uklada do databazy*/
