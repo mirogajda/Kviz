@@ -8,6 +8,10 @@ import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import sk.aplikacie.kviz.R
 
+/**
+ * Trieda, ktorej ulohou je riadit RecyclerView, vypisovat data z databazy a podobne
+ */
+
 class UserAdapter() :
     RecyclerView.Adapter<RecyclerView.ViewHolder>() {
 

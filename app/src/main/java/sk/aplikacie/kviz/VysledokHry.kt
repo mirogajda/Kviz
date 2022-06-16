@@ -8,6 +8,11 @@ import kotlinx.android.synthetic.main.activity_vysledok_hry.*
 import sk.aplikacie.kviz.data.User
 import sk.aplikacie.kviz.data.UserViewModel
 
+/**
+ * Trieda, ktora vypise vysledok hry a da moznost ist kviz znovu alebo sa vratit do hlavneho menu
+ * Taktiez sa tu uklada uzivatela aj s vysledkom do databazy
+ */
+
 class VysledokHry : AppCompatActivity() {
 
     private lateinit var mUserViewModel: UserViewModel

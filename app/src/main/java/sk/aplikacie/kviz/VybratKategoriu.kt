@@ -6,6 +6,9 @@ import android.os.Bundle
 import kotlinx.android.synthetic.main.activity_vybrat_kategoriu.*
 import kotlinx.android.synthetic.main.activity_zaciatok_hry.*
 
+/**
+ * Trieda, v ktorej ma uzivatel moznost vybrat si kategoriu kvizu
+ */
 
 class VybratKategoriu : AppCompatActivity() {
 

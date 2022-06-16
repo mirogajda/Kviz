@@ -6,6 +6,10 @@ import android.os.Bundle
 import android.widget.Toast
 import kotlinx.android.synthetic.main.activity_zaciatok_hry.*
 
+/**
+ * Trieda, v ktorej sa od uzivatela vyziada meno a ponukne moznost pokracovat na kviz
+ */
+
 class ZaciatokHry : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

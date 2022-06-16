@@ -6,6 +6,11 @@ import androidx.room.Insert
 import androidx.room.OnConflictStrategy
 import androidx.room.Query
 
+/**
+ * Predstavuje objekt, ktory definuje metody, ktorymi pristupujem k databaze
+ *
+ */
+
 @Dao
 interface UserDao {
     @Insert(onConflict = OnConflictStrategy.IGNORE)

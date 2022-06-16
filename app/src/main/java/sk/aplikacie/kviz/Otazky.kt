@@ -1,5 +1,11 @@
 package sk.aplikacie.kviz
 
+/**
+ * Trieda, v ktorej vytvaram konkretne otazky, priradujem im odpovede obrazky a ukladam ich
+ * do arraylistu
+ *
+ */
+
 object Otazky{
 
     const val menoHraca: String = "meno hraca"

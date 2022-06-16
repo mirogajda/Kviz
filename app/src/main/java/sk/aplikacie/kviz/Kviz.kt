@@ -10,6 +10,10 @@ import android.widget.TextView
 import androidx.core.content.ContextCompat
 import kotlinx.android.synthetic.main.activity_kviz.*
 
+/**
+ * Trieda, ktora riesi logiku kvizu, nastavuje otazky, zobrazuje ich a vyhodnocuje ich
+ */
+
 class Kviz : AppCompatActivity(), View.OnClickListener {
 
     private var aktPozicia: Int = 1

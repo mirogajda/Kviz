@@ -11,6 +11,9 @@ import kotlinx.android.synthetic.main.activity_najlepsi_hraci.*
 import sk.aplikacie.kviz.data.UserAdapter
 import sk.aplikacie.kviz.data.UserViewModel
 
+/**
+ * Trieda, ktora zobrazuje najlepsich hracov z databazy pomocou RecyclerView
+ */
 
 class NajlepsiHraci : AppCompatActivity() {
 

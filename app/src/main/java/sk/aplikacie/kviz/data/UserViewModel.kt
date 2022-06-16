@@ -7,6 +7,10 @@ import androidx.lifecycle.viewModelScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 
+/**
+ * Trieda, ktorej ulohou je sprostredkovat data uzivatelovi
+ */
+
 class UserViewModel(application: Application): AndroidViewModel(application) {
 
     val readAllData: LiveData<List<User>>
